@@ -16,8 +16,8 @@ app.set("trust proxy", 1);
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://blooddonatio2-9.vercel.app",
-  "https://blooddonation2-0.vercel.app",
+  "https://blood-donation7.vercel.app",
+  
 ];
 
 const corsOptions = {
