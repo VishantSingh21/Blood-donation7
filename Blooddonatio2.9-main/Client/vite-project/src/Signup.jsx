@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { User, Mail, Phone, Droplet, Calendar, Lock, Eye, EyeOff, Heart, UserPlus, Shield, KeyRound } from "lucide-react";
 
 // ⚠️ Admin secret key — must match the one in Admin.jsx
-const ADMIN_SECRET = "adnanahme12351";
+const ADMIN_SECRET = "vishant123";
 
 const Signup = () => {
   const [formData, setFormData] = useState({
