@@ -13,7 +13,7 @@ const Logout = () => {
         try {
             setLoading(true);
 
-            const res = await axios.get(`https://blooddonatio2-9.onrender.com/auth/api/logout`, {
+            const res = await axios.get(`https://blood-donation7-1.onrender.com/auth/api/logout`, {
                 withCredentials: true,
             });
 
