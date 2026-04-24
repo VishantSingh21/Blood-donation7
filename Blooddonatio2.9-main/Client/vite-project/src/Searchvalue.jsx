@@ -6,7 +6,7 @@ import {
   AlertCircle, ArrowLeft, Droplet, Lock
 } from "lucide-react";
 
-const BASE_URL = "https://blooddonatio2-9.onrender.com/auth";
+const BASE_URL = "https://blood-donation7-1.onrender.com/auth";
 
 const BloodBadge = ({ group }) => (
   <div className="w-14 h-14 rounded-full bg-gradient-to-br from-red-600 to-rose-600 flex items-center justify-center flex-shrink-0 shadow-lg">
