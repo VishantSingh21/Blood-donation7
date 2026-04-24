@@ -124,7 +124,7 @@ const Admin = () => {
         setApiError(false);
         try {
             const res = await axios.get(
-                `https://blooddonatio2-9.onrender.com/auth/dontaion/api/donation/api/getallusers`,
+                `https://blood-donation7-1.onrender.com/auth/dontaion/api/donation/api/getallusers`,
                 { withCredentials: true }
             );
             console.log(res)
