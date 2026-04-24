@@ -6,7 +6,7 @@ import {
     Lock, AlertCircle, MapPin, Clock, User
 } from "lucide-react";
 
-const BASE_URL = "https://blooddonatio2-9.onrender.com/auth";
+const BASE_URL = "https://blood-donation7-1.onrender.com/auth";
 
 // Blood group badge — same as SearchValue
 const BloodBadge = ({ group }) => (
