@@ -136,6 +136,7 @@ const Admin = () => {
                 `${API_BASE}/auth/dontaion/api/donation/api/getallusers`,
                 { withCredentials: true }
             );
+          console.log(res);
             const u = res.data.users || [];
             const br = res.data.bloodrequired || [];
             const bd = res.data.blooddonation || [];
